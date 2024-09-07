@@ -33,8 +33,8 @@ pip install -r requirements.txt
 1. **Clone o repositório**:
    
    ```bash
-   git clone https://github.com/seu-usuario/vtex-shipping-extractor.git
-   cd vtex-shipping-extractor
+   git clone https://github.com/eltonleao/estacio-topicos-de-big-data-em-python.git
+   cd estacio-topicos-de-big-data-em-python
    ```
 
 2. **Adicione sua planilha de entrada**:
