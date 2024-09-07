@@ -6,10 +6,6 @@
 
 Este projeto permite extrair informações de frete para uma lista de SKUs e CEPs através da API da **VTEX**, e exporta os resultados para uma planilha do Excel de maneira organizada. Uma aplicação ideal para lojas online e integradores que precisam de uma forma automatizada de consultar diferentes transportadoras e prazos de entrega.
 
-**Demonstração do processo:**
-
-![Demo da aplicação](insira-seu-gif-aqui.gif)
-
 ## 🛠️ Funcionalidades
 
 - 📦 **Consulta Automática**: Consulta de informações de frete com base em uma lista de SKUs e CEPs.
@@ -80,11 +76,6 @@ pip install -r requirements.txt
 | 88134360  | 2071060 | Retira - SC PALHOCA - Loja Palhoça (30) | 1bd    | Grátis  |
 | 88134360  | 1653182 | Entrega SC                             | 4bd    | R$ 29,65|
 
-## 🎥 Exemplos de Uso
-
-Veja o script em ação:
-
-![GIF demonstrando o script em execução](insira-seu-gif-aqui.gif)
 
 ## 💡 Dicas Importantes
 
