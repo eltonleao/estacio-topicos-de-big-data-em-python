@@ -2,21 +2,21 @@ import requests
 import pandas as pd
 import openpyxl
 
-# Carregar os CEPs e SKUs a partir da planilha de entrada
-input_file = "./input_ceps_skus.xlsx"  # Nome da planilha de entrada
+# Carregar a planilha com os CEPs e SKUs sem cabeçalhos
+input_file = "input_ceps_skus.xlsx"
+ceps = pd.read_excel(input_file, sheet_name="CEPs", header=None)  # Sem cabeçalho, então header=None
+skus = pd.read_excel(input_file, sheet_name="SKUs", header=None)  # Sem cabeçalho, então header=None
 
-# Leitura dos CEPs na aba "CEPs"
-ceps_df = pd.read_excel(input_file, sheet_name="CEPs")
-
-# Leitura dos SKUs na aba "SKUs"
-skus_df = pd.read_excel(input_file, sheet_name="SKUs")
+# Renomear as colunas manualmente
+ceps.columns = ['CEP']
+skus.columns = ['SKU']
 
 # Criação da planilha de saída
 excel_book = openpyxl.Workbook()
 sheet = excel_book.active
 sheet.title = "Dados Extração VTEX"
 
-# Definindo cabeçalhos na planilha
+# Definindo cabeçalhos na planilha de saída
 sheet["A1"] = "CEP"
 sheet["B1"] = "SKU"
 sheet["C1"] = "TRANSPORTADORA"
@@ -38,13 +38,13 @@ def fetch_shipping_info(sku, cep):
     payload = {
         "items": [
             {
-                "id": sku,
+                "id": str(sku),  # Converter SKU para string
                 "quantity": 1,
                 "seller": "1"
             }
         ],
         "country": "BRA",
-        "postalCode": cep
+        "postalCode": str(cep)  # Converter CEP para string
     }
 
     # Faz a requisição POST à API da VTEX
@@ -53,7 +53,7 @@ def fetch_shipping_info(sku, cep):
     # Verifica se a requisição foi bem-sucedida
     if response.status_code == 200:
         data = response.json()
-        print(f"Resposta da API para CEP {cep} e SKU {sku}: {data}")  # Log para inspecionar a resposta
+        print(f"Resposta da API para CEP {cep} e SKU {sku}: {data}")  # Log da resposta
 
         resultados = []
         
@@ -72,7 +72,6 @@ def fetch_shipping_info(sku, cep):
                     transportadora = 'Não informado'
                     preco = 0
 
-                # Formatação final do preço
                 preco_formatado = 'Grátis' if preco == 0 else f"R$ {preco:.2f}"
 
                 # Adiciona cada resultado como uma tupla na lista
@@ -80,15 +79,13 @@ def fetch_shipping_info(sku, cep):
         
         return resultados
     
-    # Retorna uma lista com um valor indicando que não houve resultado
     return [('Não informado', 'Não informado', 'Não informado')]
 
-
 # Laço para iterar sobre os CEPs e SKUs
-for i, row_cep in ceps_df.iterrows():
-    num_cep = row_cep['cep']
-    for j, row_sku in skus_df.iterrows():
-        sku = row_sku['sku']
+for i, row_cep in ceps.iterrows():
+    num_cep = row_cep['CEP']  # Certifique-se de que o nome da coluna é "CEP"
+    for j, row_sku in skus.iterrows():
+        sku = row_sku['SKU']  # Certifique-se de que o nome da coluna é "SKU"
         
         # Busca as informações de envio
         resultados = fetch_shipping_info(sku, num_cep)
@@ -105,7 +102,6 @@ for i, row_cep in ceps_df.iterrows():
             current_row += 1
 
 # Salva o resultado final na planilha
-output_file = "dados_transportadoras_vtex.xlsx"
-excel_book.save(output_file)
+excel_book.save("dados_transportadoras_vtex.xlsx")
 
-print(f"Processo concluído! Resultados salvos em {output_file}")
+print("Processo concluído!")
