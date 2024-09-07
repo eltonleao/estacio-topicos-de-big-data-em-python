@@ -2,7 +2,9 @@
 
 ## 🎯 Visão Geral
 
-Este projeto permite extrair informações de frete para uma lista de SKUs e CEPs através da API da **VTEX**, e exporta os resultados para uma planilha do Excel de maneira organizada. Uma aplicação ideal para lojas online e integradores que precisam de uma forma automatizada de consultar diferentes transportadoras, prazos de entrega e preços.
+Este projeto faz parte de uma atividade de extensão acadêmica para a **Universidade Estácio de Sá**, com o objetivo de automatizar a verificação de informações de frete utilizando a API da **VTEX**. O projeto visa resolver problemas de discrepância nas tabelas de frete cadastradas, garantindo que os valores exibidos aos clientes correspondam corretamente aos valores de frete reais.
+
+Através desta solução, a empresa **Cassol Centerlar** pode identificar rapidamente erros em seus valores de frete, otimizando o processo de verificação e correção de SKUs com informações incorretas, aumentando assim a satisfação dos clientes e melhorando a taxa de conversão de vendas.
 
 ## 🛠️ Funcionalidades
 
@@ -82,3 +84,7 @@ pip install -r requirements.txt
 - **Preços**: As colunas **PREÇO ORIGINAL** e **PREÇO ATUAL** exibem os valores em reais. O preço original corresponde ao valor de tabela, enquanto o preço atual reflete possíveis promoções ou descontos.
 - **Limite de requisições da API VTEX**: Fique atento ao número de requisições que sua conta da VTEX pode suportar.
 - **Manutenção do arquivo Excel**: Garanta que o arquivo `input_ceps_skus.xlsx` contenha apenas CEPs e SKUs válidos.
+
+---
+
+**Este projeto é parte da atividade de extensão da Universidade Estácio de Sá, dentro da disciplina de Tópicos em Big Data e Python. O objetivo é aplicar conhecimentos adquiridos na disciplina para resolver problemas reais da empresa Cassol, aumentando a eficiência operacional e melhorando a experiência dos consumidores.**
