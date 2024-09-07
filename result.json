@@ -1,0 +1,2041 @@
+{
+    "items": [
+        {
+            "id": "2071060",
+            "requestIndex": 0,
+            "quantity": 1,
+            "seller": "1",
+            "sellerChain": [
+                "1",
+                "cassolsantacatarina"
+            ],
+            "tax": 0,
+            "priceValidUntil": "2025-09-07T19:40:35Z",
+            "price": 283900,
+            "listPrice": 283900,
+            "rewardValue": 0,
+            "sellingPrice": 283900,
+            "offerings": [],
+            "priceTags": [],
+            "measurementUnit": "Conjunto",
+            "unitMultiplier": 1.0,
+            "parentItemIndex": null,
+            "parentAssemblyBinding": null,
+            "availability": "available",
+            "catalogProvider": "vrn:vtex.catalog-api-proxy:-:cassol:master:/proxy/authenticated/catalog/pvt/sku/stockkeepingunitbyid/2071060",
+            "priceDefinition": {
+                "calculatedSellingPrice": 283900,
+                "total": 283900,
+                "sellingPrices": [
+                    {
+                        "value": 283900,
+                        "quantity": 1
+                    }
+                ],
+                "reason": null
+            },
+            "priceTable": null
+        }
+    ],
+    "ratesAndBenefitsData": {
+        "rateAndBenefitsIdentifiers": [],
+        "teaser": []
+    },
+    "paymentData": {
+        "installmentOptions": [
+            {
+                "paymentSystem": "1",
+                "bin": null,
+                "paymentName": "American Express",
+                "paymentGroupName": "creditCardPaymentGroup",
+                "value": 283900,
+                "installments": [
+                    {
+                        "count": 1,
+                        "hasInterestRate": false,
+                        "interestRate": 0,
+                        "value": 283900,
+                        "total": 283900,
+                        "sellerMerchantInstallments": [
+                            {
+                                "id": "CASSOL",
+                                "count": 1,
+                                "hasInterestRate": false,
+                                "interestRate": 0,
+                                "value": 283900,
+                                "total": 283900
+                            }
+                        ]
+                    },
+                    {
+                        "count": 2,
+                        "hasInterestRate": false,
+                        "interestRate": 0,
+                        "value": 141950,
+                        "total": 283900,
+                        "sellerMerchantInstallments": [
+                            {
+                                "id": "CASSOL",
+                                "count": 2,
+                                "hasInterestRate": false,
+                                "interestRate": 0,
+                                "value": 141950,
+                                "total": 283900
+                            }
+                        ]
+                    },
+                    {
+                        "count": 3,
+                        "hasInterestRate": false,
+                        "interestRate": 0,
+                        "value": 94633,
+                        "total": 283900,
+                        "sellerMerchantInstallments": [
+                            {
+                                "id": "CASSOL",
+                                "count": 3,
+                                "hasInterestRate": false,
+                                "interestRate": 0,
+                                "value": 94633,
+                                "total": 283900
+                            }
+                        ]
+                    },
+                    {
+                        "count": 4,
+                        "hasInterestRate": false,
+                        "interestRate": 0,
+                        "value": 70975,
+                        "total": 283900,
+                        "sellerMerchantInstallments": [
+                            {
+                                "id": "CASSOL",
+                                "count": 4,
+                                "hasInterestRate": false,
+                                "interestRate": 0,
+                                "value": 70975,
+                                "total": 283900
+                            }
+                        ]
+                    },
+                    {
+                        "count": 5,
+                        "hasInterestRate": false,
+                        "interestRate": 0,
+                        "value": 56780,
+                        "total": 283900,
+                        "sellerMerchantInstallments": [
+                            {
+                                "id": "CASSOL",
+                                "count": 5,
+                                "hasInterestRate": false,
+                                "interestRate": 0,
+                                "value": 56780,
+                                "total": 283900
+                            }
+                        ]
+                    },
+                    {
+                        "count": 6,
+                        "hasInterestRate": false,
+                        "interestRate": 0,
+                        "value": 47316,
+                        "total": 283900,
+                        "sellerMerchantInstallments": [
+                            {
+                                "id": "CASSOL",
+                                "count": 6,
+                                "hasInterestRate": false,
+                                "interestRate": 0,
+                                "value": 47316,
+                                "total": 283900
+                            }
+                        ]
+                    },
+                    {
+                        "count": 7,
+                        "hasInterestRate": false,
+                        "interestRate": 0,
+                        "value": 40557,
+                        "total": 283900,
+                        "sellerMerchantInstallments": [
+                            {
+                                "id": "CASSOL",
+                                "count": 7,
+                                "hasInterestRate": false,
+                                "interestRate": 0,
+                                "value": 40557,
+                                "total": 283900
+                            }
+                        ]
+                    },
+                    {
+                        "count": 8,
+                        "hasInterestRate": false,
+                        "interestRate": 0,
+                        "value": 35487,
+                        "total": 283900,
+                        "sellerMerchantInstallments": [
+                            {
+                                "id": "CASSOL",
+                                "count": 8,
+                                "hasInterestRate": false,
+                                "interestRate": 0,
+                                "value": 35487,
+                                "total": 283900
+                            }
+                        ]
+                    },
+                    {
+                        "count": 9,
+                        "hasInterestRate": false,
+                        "interestRate": 0,
+                        "value": 31544,
+                        "total": 283900,
+                        "sellerMerchantInstallments": [
+                            {
+                                "id": "CASSOL",
+                                "count": 9,
+                                "hasInterestRate": false,
+                                "interestRate": 0,
+                                "value": 31544,
+                                "total": 283900
+                            }
+                        ]
+                    },
+                    {
+                        "count": 10,
+                        "hasInterestRate": false,
+                        "interestRate": 0,
+                        "value": 28390,
+                        "total": 283900,
+                        "sellerMerchantInstallments": [
+                            {
+                                "id": "CASSOL",
+                                "count": 10,
+                                "hasInterestRate": false,
+                                "interestRate": 0,
+                                "value": 28390,
+                                "total": 283900
+                            }
+                        ]
+                    },
+                    {
+                        "count": 11,
+                        "hasInterestRate": false,
+                        "interestRate": 0,
+                        "value": 25809,
+                        "total": 283900,
+                        "sellerMerchantInstallments": [
+                            {
+                                "id": "CASSOL",
+                                "count": 11,
+                                "hasInterestRate": false,
+                                "interestRate": 0,
+                                "value": 25809,
+                                "total": 283900
+                            }
+                        ]
+                    },
+                    {
+                        "count": 12,
+                        "hasInterestRate": false,
+                        "interestRate": 0,
+                        "value": 23658,
+                        "total": 283900,
+                        "sellerMerchantInstallments": [
+                            {
+                                "id": "CASSOL",
+                                "count": 12,
+                                "hasInterestRate": false,
+                                "interestRate": 0,
+                                "value": 23658,
+                                "total": 283900
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "paymentSystem": "2",
+                "bin": null,
+                "paymentName": "Visa",
+                "paymentGroupName": "creditCardPaymentGroup",
+                "value": 283900,
+                "installments": [
+                    {
+                        "count": 1,
+                        "hasInterestRate": false,
+                        "interestRate": 0,
+                        "value": 283900,
+                        "total": 283900,
+                        "sellerMerchantInstallments": [
+                            {
+                                "id": "CASSOL",
+                                "count": 1,
+                                "hasInterestRate": false,
+                                "interestRate": 0,
+                                "value": 283900,
+                                "total": 283900
+                            }
+                        ]
+                    },
+                    {
+                        "count": 2,
+                        "hasInterestRate": false,
+                        "interestRate": 0,
+                        "value": 141950,
+                        "total": 283900,
+                        "sellerMerchantInstallments": [
+                            {
+                                "id": "CASSOL",
+                                "count": 2,
+                                "hasInterestRate": false,
+                                "interestRate": 0,
+                                "value": 141950,
+                                "total": 283900
+                            }
+                        ]
+                    },
+                    {
+                        "count": 3,
+                        "hasInterestRate": false,
+                        "interestRate": 0,
+                        "value": 94633,
+                        "total": 283900,
+                        "sellerMerchantInstallments": [
+                            {
+                                "id": "CASSOL",
+                                "count": 3,
+                                "hasInterestRate": false,
+                                "interestRate": 0,
+                                "value": 94633,
+                                "total": 283900
+                            }
+                        ]
+                    },
+                    {
+                        "count": 4,
+                        "hasInterestRate": false,
+                        "interestRate": 0,
+                        "value": 70975,
+                        "total": 283900,
+                        "sellerMerchantInstallments": [
+                            {
+                                "id": "CASSOL",
+                                "count": 4,
+                                "hasInterestRate": false,
+                                "interestRate": 0,
+                                "value": 70975,
+                                "total": 283900
+                            }
+                        ]
+                    },
+                    {
+                        "count": 5,
+                        "hasInterestRate": false,
+                        "interestRate": 0,
+                        "value": 56780,
+                        "total": 283900,
+                        "sellerMerchantInstallments": [
+                            {
+                                "id": "CASSOL",
+                                "count": 5,
+                                "hasInterestRate": false,
+                                "interestRate": 0,
+                                "value": 56780,
+                                "total": 283900
+                            }
+                        ]
+                    },
+                    {
+                        "count": 6,
+                        "hasInterestRate": false,
+                        "interestRate": 0,
+                        "value": 47316,
+                        "total": 283900,
+                        "sellerMerchantInstallments": [
+                            {
+                                "id": "CASSOL",
+                                "count": 6,
+                                "hasInterestRate": false,
+                                "interestRate": 0,
+                                "value": 47316,
+                                "total": 283900
+                            }
+                        ]
+                    },
+                    {
+                        "count": 7,
+                        "hasInterestRate": false,
+                        "interestRate": 0,
+                        "value": 40557,
+                        "total": 283900,
+                        "sellerMerchantInstallments": [
+                            {
+                                "id": "CASSOL",
+                                "count": 7,
+                                "hasInterestRate": false,
+                                "interestRate": 0,
+                                "value": 40557,
+                                "total": 283900
+                            }
+                        ]
+                    },
+                    {
+                        "count": 8,
+                        "hasInterestRate": false,
+                        "interestRate": 0,
+                        "value": 35487,
+                        "total": 283900,
+                        "sellerMerchantInstallments": [
+                            {
+                                "id": "CASSOL",
+                                "count": 8,
+                                "hasInterestRate": false,
+                                "interestRate": 0,
+                                "value": 35487,
+                                "total": 283900
+                            }
+                        ]
+                    },
+                    {
+                        "count": 9,
+                        "hasInterestRate": false,
+                        "interestRate": 0,
+                        "value": 31544,
+                        "total": 283900,
+                        "sellerMerchantInstallments": [
+                            {
+                                "id": "CASSOL",
+                                "count": 9,
+                                "hasInterestRate": false,
+                                "interestRate": 0,
+                                "value": 31544,
+                                "total": 283900
+                            }
+                        ]
+                    },
+                    {
+                        "count": 10,
+                        "hasInterestRate": false,
+                        "interestRate": 0,
+                        "value": 28390,
+                        "total": 283900,
+                        "sellerMerchantInstallments": [
+                            {
+                                "id": "CASSOL",
+                                "count": 10,
+                                "hasInterestRate": false,
+                                "interestRate": 0,
+                                "value": 28390,
+                                "total": 283900
+                            }
+                        ]
+                    },
+                    {
+                        "count": 11,
+                        "hasInterestRate": false,
+                        "interestRate": 0,
+                        "value": 25809,
+                        "total": 283900,
+                        "sellerMerchantInstallments": [
+                            {
+                                "id": "CASSOL",
+                                "count": 11,
+                                "hasInterestRate": false,
+                                "interestRate": 0,
+                                "value": 25809,
+                                "total": 283900
+                            }
+                        ]
+                    },
+                    {
+                        "count": 12,
+                        "hasInterestRate": false,
+                        "interestRate": 0,
+                        "value": 23658,
+                        "total": 283900,
+                        "sellerMerchantInstallments": [
+                            {
+                                "id": "CASSOL",
+                                "count": 12,
+                                "hasInterestRate": false,
+                                "interestRate": 0,
+                                "value": 23658,
+                                "total": 283900
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "paymentSystem": "3",
+                "bin": null,
+                "paymentName": "Diners",
+                "paymentGroupName": "creditCardPaymentGroup",
+                "value": 283900,
+                "installments": [
+                    {
+                        "count": 1,
+                        "hasInterestRate": false,
+                        "interestRate": 0,
+                        "value": 283900,
+                        "total": 283900,
+                        "sellerMerchantInstallments": [
+                            {
+                                "id": "CASSOL",
+                                "count": 1,
+                                "hasInterestRate": false,
+                                "interestRate": 0,
+                                "value": 283900,
+                                "total": 283900
+                            }
+                        ]
+                    },
+                    {
+                        "count": 2,
+                        "hasInterestRate": false,
+                        "interestRate": 0,
+                        "value": 141950,
+                        "total": 283900,
+                        "sellerMerchantInstallments": [
+                            {
+                                "id": "CASSOL",
+                                "count": 2,
+                                "hasInterestRate": false,
+                                "interestRate": 0,
+                                "value": 141950,
+                                "total": 283900
+                            }
+                        ]
+                    },
+                    {
+                        "count": 3,
+                        "hasInterestRate": false,
+                        "interestRate": 0,
+                        "value": 94633,
+                        "total": 283900,
+                        "sellerMerchantInstallments": [
+                            {
+                                "id": "CASSOL",
+                                "count": 3,
+                                "hasInterestRate": false,
+                                "interestRate": 0,
+                                "value": 94633,
+                                "total": 283900
+                            }
+                        ]
+                    },
+                    {
+                        "count": 4,
+                        "hasInterestRate": false,
+                        "interestRate": 0,
+                        "value": 70975,
+                        "total": 283900,
+                        "sellerMerchantInstallments": [
+                            {
+                                "id": "CASSOL",
+                                "count": 4,
+                                "hasInterestRate": false,
+                                "interestRate": 0,
+                                "value": 70975,
+                                "total": 283900
+                            }
+                        ]
+                    },
+                    {
+                        "count": 5,
+                        "hasInterestRate": false,
+                        "interestRate": 0,
+                        "value": 56780,
+                        "total": 283900,
+                        "sellerMerchantInstallments": [
+                            {
+                                "id": "CASSOL",
+                                "count": 5,
+                                "hasInterestRate": false,
+                                "interestRate": 0,
+                                "value": 56780,
+                                "total": 283900
+                            }
+                        ]
+                    },
+                    {
+                        "count": 6,
+                        "hasInterestRate": false,
+                        "interestRate": 0,
+                        "value": 47316,
+                        "total": 283900,
+                        "sellerMerchantInstallments": [
+                            {
+                                "id": "CASSOL",
+                                "count": 6,
+                                "hasInterestRate": false,
+                                "interestRate": 0,
+                                "value": 47316,
+                                "total": 283900
+                            }
+                        ]
+                    },
+                    {
+                        "count": 7,
+                        "hasInterestRate": false,
+                        "interestRate": 0,
+                        "value": 40557,
+                        "total": 283900,
+                        "sellerMerchantInstallments": [
+                            {
+                                "id": "CASSOL",
+                                "count": 7,
+                                "hasInterestRate": false,
+                                "interestRate": 0,
+                                "value": 40557,
+                                "total": 283900
+                            }
+                        ]
+                    },
+                    {
+                        "count": 8,
+                        "hasInterestRate": false,
+                        "interestRate": 0,
+                        "value": 35487,
+                        "total": 283900,
+                        "sellerMerchantInstallments": [
+                            {
+                                "id": "CASSOL",
+                                "count": 8,
+                                "hasInterestRate": false,
+                                "interestRate": 0,
+                                "value": 35487,
+                                "total": 283900
+                            }
+                        ]
+                    },
+                    {
+                        "count": 9,
+                        "hasInterestRate": false,
+                        "interestRate": 0,
+                        "value": 31544,
+                        "total": 283900,
+                        "sellerMerchantInstallments": [
+                            {
+                                "id": "CASSOL",
+                                "count": 9,
+                                "hasInterestRate": false,
+                                "interestRate": 0,
+                                "value": 31544,
+                                "total": 283900
+                            }
+                        ]
+                    },
+                    {
+                        "count": 10,
+                        "hasInterestRate": false,
+                        "interestRate": 0,
+                        "value": 28390,
+                        "total": 283900,
+                        "sellerMerchantInstallments": [
+                            {
+                                "id": "CASSOL",
+                                "count": 10,
+                                "hasInterestRate": false,
+                                "interestRate": 0,
+                                "value": 28390,
+                                "total": 283900
+                            }
+                        ]
+                    },
+                    {
+                        "count": 11,
+                        "hasInterestRate": false,
+                        "interestRate": 0,
+                        "value": 25809,
+                        "total": 283900,
+                        "sellerMerchantInstallments": [
+                            {
+                                "id": "CASSOL",
+                                "count": 11,
+                                "hasInterestRate": false,
+                                "interestRate": 0,
+                                "value": 25809,
+                                "total": 283900
+                            }
+                        ]
+                    },
+                    {
+                        "count": 12,
+                        "hasInterestRate": false,
+                        "interestRate": 0,
+                        "value": 23658,
+                        "total": 283900,
+                        "sellerMerchantInstallments": [
+                            {
+                                "id": "CASSOL",
+                                "count": 12,
+                                "hasInterestRate": false,
+                                "interestRate": 0,
+                                "value": 23658,
+                                "total": 283900
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "paymentSystem": "4",
+                "bin": null,
+                "paymentName": "Mastercard",
+                "paymentGroupName": "creditCardPaymentGroup",
+                "value": 283900,
+                "installments": [
+                    {
+                        "count": 1,
+                        "hasInterestRate": false,
+                        "interestRate": 0,
+                        "value": 283900,
+                        "total": 283900,
+                        "sellerMerchantInstallments": [
+                            {
+                                "id": "CASSOL",
+                                "count": 1,
+                                "hasInterestRate": false,
+                                "interestRate": 0,
+                                "value": 283900,
+                                "total": 283900
+                            }
+                        ]
+                    },
+                    {
+                        "count": 2,
+                        "hasInterestRate": false,
+                        "interestRate": 0,
+                        "value": 141950,
+                        "total": 283900,
+                        "sellerMerchantInstallments": [
+                            {
+                                "id": "CASSOL",
+                                "count": 2,
+                                "hasInterestRate": false,
+                                "interestRate": 0,
+                                "value": 141950,
+                                "total": 283900
+                            }
+                        ]
+                    },
+                    {
+                        "count": 3,
+                        "hasInterestRate": false,
+                        "interestRate": 0,
+                        "value": 94633,
+                        "total": 283900,
+                        "sellerMerchantInstallments": [
+                            {
+                                "id": "CASSOL",
+                                "count": 3,
+                                "hasInterestRate": false,
+                                "interestRate": 0,
+                                "value": 94633,
+                                "total": 283900
+                            }
+                        ]
+                    },
+                    {
+                        "count": 4,
+                        "hasInterestRate": false,
+                        "interestRate": 0,
+                        "value": 70975,
+                        "total": 283900,
+                        "sellerMerchantInstallments": [
+                            {
+                                "id": "CASSOL",
+                                "count": 4,
+                                "hasInterestRate": false,
+                                "interestRate": 0,
+                                "value": 70975,
+                                "total": 283900
+                            }
+                        ]
+                    },
+                    {
+                        "count": 5,
+                        "hasInterestRate": false,
+                        "interestRate": 0,
+                        "value": 56780,
+                        "total": 283900,
+                        "sellerMerchantInstallments": [
+                            {
+                                "id": "CASSOL",
+                                "count": 5,
+                                "hasInterestRate": false,
+                                "interestRate": 0,
+                                "value": 56780,
+                                "total": 283900
+                            }
+                        ]
+                    },
+                    {
+                        "count": 6,
+                        "hasInterestRate": false,
+                        "interestRate": 0,
+                        "value": 47316,
+                        "total": 283900,
+                        "sellerMerchantInstallments": [
+                            {
+                                "id": "CASSOL",
+                                "count": 6,
+                                "hasInterestRate": false,
+                                "interestRate": 0,
+                                "value": 47316,
+                                "total": 283900
+                            }
+                        ]
+                    },
+                    {
+                        "count": 7,
+                        "hasInterestRate": false,
+                        "interestRate": 0,
+                        "value": 40557,
+                        "total": 283900,
+                        "sellerMerchantInstallments": [
+                            {
+                                "id": "CASSOL",
+                                "count": 7,
+                                "hasInterestRate": false,
+                                "interestRate": 0,
+                                "value": 40557,
+                                "total": 283900
+                            }
+                        ]
+                    },
+                    {
+                        "count": 8,
+                        "hasInterestRate": false,
+                        "interestRate": 0,
+                        "value": 35487,
+                        "total": 283900,
+                        "sellerMerchantInstallments": [
+                            {
+                                "id": "CASSOL",
+                                "count": 8,
+                                "hasInterestRate": false,
+                                "interestRate": 0,
+                                "value": 35487,
+                                "total": 283900
+                            }
+                        ]
+                    },
+                    {
+                        "count": 9,
+                        "hasInterestRate": false,
+                        "interestRate": 0,
+                        "value": 31544,
+                        "total": 283900,
+                        "sellerMerchantInstallments": [
+                            {
+                                "id": "CASSOL",
+                                "count": 9,
+                                "hasInterestRate": false,
+                                "interestRate": 0,
+                                "value": 31544,
+                                "total": 283900
+                            }
+                        ]
+                    },
+                    {
+                        "count": 10,
+                        "hasInterestRate": false,
+                        "interestRate": 0,
+                        "value": 28390,
+                        "total": 283900,
+                        "sellerMerchantInstallments": [
+                            {
+                                "id": "CASSOL",
+                                "count": 10,
+                                "hasInterestRate": false,
+                                "interestRate": 0,
+                                "value": 28390,
+                                "total": 283900
+                            }
+                        ]
+                    },
+                    {
+                        "count": 11,
+                        "hasInterestRate": false,
+                        "interestRate": 0,
+                        "value": 25809,
+                        "total": 283900,
+                        "sellerMerchantInstallments": [
+                            {
+                                "id": "CASSOL",
+                                "count": 11,
+                                "hasInterestRate": false,
+                                "interestRate": 0,
+                                "value": 25809,
+                                "total": 283900
+                            }
+                        ]
+                    },
+                    {
+                        "count": 12,
+                        "hasInterestRate": false,
+                        "interestRate": 0,
+                        "value": 23658,
+                        "total": 283900,
+                        "sellerMerchantInstallments": [
+                            {
+                                "id": "CASSOL",
+                                "count": 12,
+                                "hasInterestRate": false,
+                                "interestRate": 0,
+                                "value": 23658,
+                                "total": 283900
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "paymentSystem": "6",
+                "bin": null,
+                "paymentName": "Boleto Bancário",
+                "paymentGroupName": "bankInvoicePaymentGroup",
+                "value": 283900,
+                "installments": [
+                    {
+                        "count": 1,
+                        "hasInterestRate": false,
+                        "interestRate": 0,
+                        "value": 283900,
+                        "total": 283900,
+                        "sellerMerchantInstallments": [
+                            {
+                                "id": "CASSOL",
+                                "count": 1,
+                                "hasInterestRate": false,
+                                "interestRate": 0,
+                                "value": 283900,
+                                "total": 283900
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "paymentSystem": "8",
+                "bin": null,
+                "paymentName": "Hipercard",
+                "paymentGroupName": "creditCardPaymentGroup",
+                "value": 283900,
+                "installments": [
+                    {
+                        "count": 1,
+                        "hasInterestRate": false,
+                        "interestRate": 0,
+                        "value": 283900,
+                        "total": 283900,
+                        "sellerMerchantInstallments": [
+                            {
+                                "id": "CASSOL",
+                                "count": 1,
+                                "hasInterestRate": false,
+                                "interestRate": 0,
+                                "value": 283900,
+                                "total": 283900
+                            }
+                        ]
+                    },
+                    {
+                        "count": 2,
+                        "hasInterestRate": false,
+                        "interestRate": 0,
+                        "value": 141950,
+                        "total": 283900,
+                        "sellerMerchantInstallments": [
+                            {
+                                "id": "CASSOL",
+                                "count": 2,
+                                "hasInterestRate": false,
+                                "interestRate": 0,
+                                "value": 141950,
+                                "total": 283900
+                            }
+                        ]
+                    },
+                    {
+                        "count": 3,
+                        "hasInterestRate": false,
+                        "interestRate": 0,
+                        "value": 94633,
+                        "total": 283900,
+                        "sellerMerchantInstallments": [
+                            {
+                                "id": "CASSOL",
+                                "count": 3,
+                                "hasInterestRate": false,
+                                "interestRate": 0,
+                                "value": 94633,
+                                "total": 283900
+                            }
+                        ]
+                    },
+                    {
+                        "count": 4,
+                        "hasInterestRate": false,
+                        "interestRate": 0,
+                        "value": 70975,
+                        "total": 283900,
+                        "sellerMerchantInstallments": [
+                            {
+                                "id": "CASSOL",
+                                "count": 4,
+                                "hasInterestRate": false,
+                                "interestRate": 0,
+                                "value": 70975,
+                                "total": 283900
+                            }
+                        ]
+                    },
+                    {
+                        "count": 5,
+                        "hasInterestRate": false,
+                        "interestRate": 0,
+                        "value": 56780,
+                        "total": 283900,
+                        "sellerMerchantInstallments": [
+                            {
+                                "id": "CASSOL",
+                                "count": 5,
+                                "hasInterestRate": false,
+                                "interestRate": 0,
+                                "value": 56780,
+                                "total": 283900
+                            }
+                        ]
+                    },
+                    {
+                        "count": 6,
+                        "hasInterestRate": false,
+                        "interestRate": 0,
+                        "value": 47316,
+                        "total": 283900,
+                        "sellerMerchantInstallments": [
+                            {
+                                "id": "CASSOL",
+                                "count": 6,
+                                "hasInterestRate": false,
+                                "interestRate": 0,
+                                "value": 47316,
+                                "total": 283900
+                            }
+                        ]
+                    },
+                    {
+                        "count": 7,
+                        "hasInterestRate": false,
+                        "interestRate": 0,
+                        "value": 40557,
+                        "total": 283900,
+                        "sellerMerchantInstallments": [
+                            {
+                                "id": "CASSOL",
+                                "count": 7,
+                                "hasInterestRate": false,
+                                "interestRate": 0,
+                                "value": 40557,
+                                "total": 283900
+                            }
+                        ]
+                    },
+                    {
+                        "count": 8,
+                        "hasInterestRate": false,
+                        "interestRate": 0,
+                        "value": 35487,
+                        "total": 283900,
+                        "sellerMerchantInstallments": [
+                            {
+                                "id": "CASSOL",
+                                "count": 8,
+                                "hasInterestRate": false,
+                                "interestRate": 0,
+                                "value": 35487,
+                                "total": 283900
+                            }
+                        ]
+                    },
+                    {
+                        "count": 9,
+                        "hasInterestRate": false,
+                        "interestRate": 0,
+                        "value": 31544,
+                        "total": 283900,
+                        "sellerMerchantInstallments": [
+                            {
+                                "id": "CASSOL",
+                                "count": 9,
+                                "hasInterestRate": false,
+                                "interestRate": 0,
+                                "value": 31544,
+                                "total": 283900
+                            }
+                        ]
+                    },
+                    {
+                        "count": 10,
+                        "hasInterestRate": false,
+                        "interestRate": 0,
+                        "value": 28390,
+                        "total": 283900,
+                        "sellerMerchantInstallments": [
+                            {
+                                "id": "CASSOL",
+                                "count": 10,
+                                "hasInterestRate": false,
+                                "interestRate": 0,
+                                "value": 28390,
+                                "total": 283900
+                            }
+                        ]
+                    },
+                    {
+                        "count": 11,
+                        "hasInterestRate": false,
+                        "interestRate": 0,
+                        "value": 25809,
+                        "total": 283900,
+                        "sellerMerchantInstallments": [
+                            {
+                                "id": "CASSOL",
+                                "count": 11,
+                                "hasInterestRate": false,
+                                "interestRate": 0,
+                                "value": 25809,
+                                "total": 283900
+                            }
+                        ]
+                    },
+                    {
+                        "count": 12,
+                        "hasInterestRate": false,
+                        "interestRate": 0,
+                        "value": 23658,
+                        "total": 283900,
+                        "sellerMerchantInstallments": [
+                            {
+                                "id": "CASSOL",
+                                "count": 12,
+                                "hasInterestRate": false,
+                                "interestRate": 0,
+                                "value": 23658,
+                                "total": 283900
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "paymentSystem": "9",
+                "bin": null,
+                "paymentName": "Elo",
+                "paymentGroupName": "creditCardPaymentGroup",
+                "value": 283900,
+                "installments": [
+                    {
+                        "count": 1,
+                        "hasInterestRate": false,
+                        "interestRate": 0,
+                        "value": 283900,
+                        "total": 283900,
+                        "sellerMerchantInstallments": [
+                            {
+                                "id": "CASSOL",
+                                "count": 1,
+                                "hasInterestRate": false,
+                                "interestRate": 0,
+                                "value": 283900,
+                                "total": 283900
+                            }
+                        ]
+                    },
+                    {
+                        "count": 2,
+                        "hasInterestRate": false,
+                        "interestRate": 0,
+                        "value": 141950,
+                        "total": 283900,
+                        "sellerMerchantInstallments": [
+                            {
+                                "id": "CASSOL",
+                                "count": 2,
+                                "hasInterestRate": false,
+                                "interestRate": 0,
+                                "value": 141950,
+                                "total": 283900
+                            }
+                        ]
+                    },
+                    {
+                        "count": 3,
+                        "hasInterestRate": false,
+                        "interestRate": 0,
+                        "value": 94633,
+                        "total": 283900,
+                        "sellerMerchantInstallments": [
+                            {
+                                "id": "CASSOL",
+                                "count": 3,
+                                "hasInterestRate": false,
+                                "interestRate": 0,
+                                "value": 94633,
+                                "total": 283900
+                            }
+                        ]
+                    },
+                    {
+                        "count": 4,
+                        "hasInterestRate": false,
+                        "interestRate": 0,
+                        "value": 70975,
+                        "total": 283900,
+                        "sellerMerchantInstallments": [
+                            {
+                                "id": "CASSOL",
+                                "count": 4,
+                                "hasInterestRate": false,
+                                "interestRate": 0,
+                                "value": 70975,
+                                "total": 283900
+                            }
+                        ]
+                    },
+                    {
+                        "count": 5,
+                        "hasInterestRate": false,
+                        "interestRate": 0,
+                        "value": 56780,
+                        "total": 283900,
+                        "sellerMerchantInstallments": [
+                            {
+                                "id": "CASSOL",
+                                "count": 5,
+                                "hasInterestRate": false,
+                                "interestRate": 0,
+                                "value": 56780,
+                                "total": 283900
+                            }
+                        ]
+                    },
+                    {
+                        "count": 6,
+                        "hasInterestRate": false,
+                        "interestRate": 0,
+                        "value": 47316,
+                        "total": 283900,
+                        "sellerMerchantInstallments": [
+                            {
+                                "id": "CASSOL",
+                                "count": 6,
+                                "hasInterestRate": false,
+                                "interestRate": 0,
+                                "value": 47316,
+                                "total": 283900
+                            }
+                        ]
+                    },
+                    {
+                        "count": 7,
+                        "hasInterestRate": false,
+                        "interestRate": 0,
+                        "value": 40557,
+                        "total": 283900,
+                        "sellerMerchantInstallments": [
+                            {
+                                "id": "CASSOL",
+                                "count": 7,
+                                "hasInterestRate": false,
+                                "interestRate": 0,
+                                "value": 40557,
+                                "total": 283900
+                            }
+                        ]
+                    },
+                    {
+                        "count": 8,
+                        "hasInterestRate": false,
+                        "interestRate": 0,
+                        "value": 35487,
+                        "total": 283900,
+                        "sellerMerchantInstallments": [
+                            {
+                                "id": "CASSOL",
+                                "count": 8,
+                                "hasInterestRate": false,
+                                "interestRate": 0,
+                                "value": 35487,
+                                "total": 283900
+                            }
+                        ]
+                    },
+                    {
+                        "count": 9,
+                        "hasInterestRate": false,
+                        "interestRate": 0,
+                        "value": 31544,
+                        "total": 283900,
+                        "sellerMerchantInstallments": [
+                            {
+                                "id": "CASSOL",
+                                "count": 9,
+                                "hasInterestRate": false,
+                                "interestRate": 0,
+                                "value": 31544,
+                                "total": 283900
+                            }
+                        ]
+                    },
+                    {
+                        "count": 10,
+                        "hasInterestRate": false,
+                        "interestRate": 0,
+                        "value": 28390,
+                        "total": 283900,
+                        "sellerMerchantInstallments": [
+                            {
+                                "id": "CASSOL",
+                                "count": 10,
+                                "hasInterestRate": false,
+                                "interestRate": 0,
+                                "value": 28390,
+                                "total": 283900
+                            }
+                        ]
+                    },
+                    {
+                        "count": 11,
+                        "hasInterestRate": false,
+                        "interestRate": 0,
+                        "value": 25809,
+                        "total": 283900,
+                        "sellerMerchantInstallments": [
+                            {
+                                "id": "CASSOL",
+                                "count": 11,
+                                "hasInterestRate": false,
+                                "interestRate": 0,
+                                "value": 25809,
+                                "total": 283900
+                            }
+                        ]
+                    },
+                    {
+                        "count": 12,
+                        "hasInterestRate": false,
+                        "interestRate": 0,
+                        "value": 23658,
+                        "total": 283900,
+                        "sellerMerchantInstallments": [
+                            {
+                                "id": "CASSOL",
+                                "count": 12,
+                                "hasInterestRate": false,
+                                "interestRate": 0,
+                                "value": 23658,
+                                "total": 283900
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "paymentSystem": "16",
+                "bin": null,
+                "paymentName": "Vale",
+                "paymentGroupName": "giftCardPaymentGroup",
+                "value": 283900,
+                "installments": [
+                    {
+                        "count": 1,
+                        "hasInterestRate": false,
+                        "interestRate": 0,
+                        "value": 283900,
+                        "total": 283900,
+                        "sellerMerchantInstallments": [
+                            {
+                                "id": "CASSOL",
+                                "count": 1,
+                                "hasInterestRate": false,
+                                "interestRate": 0,
+                                "value": 283900,
+                                "total": 283900
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "paymentSystem": "125",
+                "bin": null,
+                "paymentName": "Pix",
+                "paymentGroupName": "instantPaymentPaymentGroup",
+                "value": 283900,
+                "installments": [
+                    {
+                        "count": 1,
+                        "hasInterestRate": false,
+                        "interestRate": 0,
+                        "value": 269705,
+                        "total": 269705,
+                        "sellerMerchantInstallments": [
+                            {
+                                "id": "CASSOL",
+                                "count": 1,
+                                "hasInterestRate": false,
+                                "interestRate": 0,
+                                "value": 269705,
+                                "total": 269705
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "paymentSystem": "900",
+                "bin": null,
+                "paymentName": "WH Google Pay",
+                "paymentGroupName": "WH Google PayPaymentGroup",
+                "value": 283900,
+                "installments": [
+                    {
+                        "count": 1,
+                        "hasInterestRate": false,
+                        "interestRate": 0,
+                        "value": 283900,
+                        "total": 283900,
+                        "sellerMerchantInstallments": [
+                            {
+                                "id": "CASSOL",
+                                "count": 1,
+                                "hasInterestRate": false,
+                                "interestRate": 0,
+                                "value": 283900,
+                                "total": 283900
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "paymentSystems": [
+            {
+                "id": 16,
+                "name": "Vale",
+                "groupName": "giftCardPaymentGroup",
+                "validator": null,
+                "stringId": "16",
+                "template": "giftCardPaymentGroup-template",
+                "requiresDocument": false,
+                "displayDocument": false,
+                "isCustom": false,
+                "description": null,
+                "requiresAuthentication": false,
+                "dueDate": "2024-09-14T19:34:39.1841214Z",
+                "availablePayments": null
+            },
+            {
+                "id": 6,
+                "name": "Boleto Bancário",
+                "groupName": "bankInvoicePaymentGroup",
+                "validator": null,
+                "stringId": "6",
+                "template": "bankInvoicePaymentGroup-template",
+                "requiresDocument": false,
+                "displayDocument": false,
+                "isCustom": false,
+                "description": null,
+                "requiresAuthentication": false,
+                "dueDate": "2024-09-14T19:34:39.1841214Z",
+                "availablePayments": null
+            },
+            {
+                "id": 125,
+                "name": "Pix",
+                "groupName": "instantPaymentPaymentGroup",
+                "validator": null,
+                "stringId": "125",
+                "template": "instantPaymentPaymentGroup-template",
+                "requiresDocument": false,
+                "displayDocument": false,
+                "isCustom": false,
+                "description": null,
+                "requiresAuthentication": false,
+                "dueDate": "2024-09-14T19:34:39.1841214Z",
+                "availablePayments": null
+            },
+            {
+                "id": 1,
+                "name": "American Express",
+                "groupName": "creditCardPaymentGroup",
+                "validator": null,
+                "stringId": "1",
+                "template": "creditCardPaymentGroup-template",
+                "requiresDocument": true,
+                "displayDocument": true,
+                "isCustom": false,
+                "description": null,
+                "requiresAuthentication": false,
+                "dueDate": "2024-09-14T19:34:39.1841214Z",
+                "availablePayments": null
+            },
+            {
+                "id": 2,
+                "name": "Visa",
+                "groupName": "creditCardPaymentGroup",
+                "validator": null,
+                "stringId": "2",
+                "template": "creditCardPaymentGroup-template",
+                "requiresDocument": true,
+                "displayDocument": true,
+                "isCustom": false,
+                "description": null,
+                "requiresAuthentication": false,
+                "dueDate": "2024-09-14T19:34:39.1841214Z",
+                "availablePayments": null
+            },
+            {
+                "id": 3,
+                "name": "Diners",
+                "groupName": "creditCardPaymentGroup",
+                "validator": null,
+                "stringId": "3",
+                "template": "creditCardPaymentGroup-template",
+                "requiresDocument": true,
+                "displayDocument": true,
+                "isCustom": false,
+                "description": null,
+                "requiresAuthentication": false,
+                "dueDate": "2024-09-14T19:34:39.1841214Z",
+                "availablePayments": null
+            },
+            {
+                "id": 4,
+                "name": "Mastercard",
+                "groupName": "creditCardPaymentGroup",
+                "validator": null,
+                "stringId": "4",
+                "template": "creditCardPaymentGroup-template",
+                "requiresDocument": true,
+                "displayDocument": true,
+                "isCustom": false,
+                "description": null,
+                "requiresAuthentication": false,
+                "dueDate": "2024-09-14T19:34:39.1841214Z",
+                "availablePayments": null
+            },
+            {
+                "id": 8,
+                "name": "Hipercard",
+                "groupName": "creditCardPaymentGroup",
+                "validator": null,
+                "stringId": "8",
+                "template": "creditCardPaymentGroup-template",
+                "requiresDocument": true,
+                "displayDocument": true,
+                "isCustom": false,
+                "description": null,
+                "requiresAuthentication": false,
+                "dueDate": "2024-09-14T19:34:39.1841214Z",
+                "availablePayments": null
+            },
+            {
+                "id": 9,
+                "name": "Elo",
+                "groupName": "creditCardPaymentGroup",
+                "validator": null,
+                "stringId": "9",
+                "template": "creditCardPaymentGroup-template",
+                "requiresDocument": true,
+                "displayDocument": true,
+                "isCustom": false,
+                "description": null,
+                "requiresAuthentication": false,
+                "dueDate": "2024-09-14T19:34:39.1841214Z",
+                "availablePayments": null
+            },
+            {
+                "id": 900,
+                "name": "WH Google Pay",
+                "groupName": "WH Google PayPaymentGroup",
+                "validator": null,
+                "stringId": "900",
+                "template": "WH Google PayPaymentGroup-template",
+                "requiresDocument": false,
+                "displayDocument": false,
+                "isCustom": false,
+                "description": null,
+                "requiresAuthentication": false,
+                "dueDate": "2024-09-14T19:34:39.1841214Z",
+                "availablePayments": null
+            }
+        ],
+        "payments": [],
+        "giftCards": [],
+        "giftCardMessages": [],
+        "availableAccounts": [],
+        "availableTokens": [],
+        "availableAssociations": {}
+    },
+    "selectableGifts": [],
+    "marketingData": null,
+    "postalCode": "88134360",
+    "country": "BRA",
+    "logisticsInfo": [
+        {
+            "itemIndex": 0,
+            "addressId": null,
+            "selectedSla": null,
+            "selectedDeliveryChannel": null,
+            "quantity": 1,
+            "shipsTo": [
+                "BRA"
+            ],
+            "slas": [
+                {
+                    "id": "Retira - SC PALHOCA - Loja Palhoça (30)",
+                    "deliveryChannel": "pickup-in-point",
+                    "name": "Retira - SC PALHOCA - Loja Palhoça (30)",
+                    "deliveryIds": [
+                        {
+                            "courierId": "30",
+                            "warehouseId": "30",
+                            "dockId": "30",
+                            "courierName": "30 - Retira - SC Loja Palhoça  V2",
+                            "quantity": 1,
+                            "kitItemDetails": []
+                        }
+                    ],
+                    "shippingEstimate": "1bd",
+                    "shippingEstimateDate": null,
+                    "lockTTL": null,
+                    "availableDeliveryWindows": [],
+                    "deliveryWindow": null,
+                    "price": 0,
+                    "listPrice": 0,
+                    "tax": 0,
+                    "pickupStoreInfo": {
+                        "isPickupStore": true,
+                        "friendlyName": "Retirar | PALHOÇA - Palhoça",
+                        "address": {
+                            "addressType": "pickup",
+                            "receiverName": null,
+                            "addressId": "30",
+                            "isDisposable": true,
+                            "postalCode": "88132-010",
+                            "city": "Palhoça",
+                            "state": "SC",
+                            "country": "BRA",
+                            "street": "Rodovia BR-101",
+                            "number": "km 212",
+                            "neighborhood": "Passa Vinte",
+                            "complement": "Marginal da BR-101, km 212 - Passa Vinte, Palhoça - SC, 88132-010",
+                            "reference": null,
+                            "geoCoordinates": [
+                                -48.66482,
+                                -27.63615
+                            ]
+                        },
+                        "additionalInfo": "Aguarde o e-mail de \"Pedido Disponível para retirada\" para se dirigir à loja escolhida. Prazo para retirada inicia-se a partir da aprovação do pagamento.",
+                        "dockId": null
+                    },
+                    "pickupPointId": "cassolsantacatarina_30",
+                    "pickupDistance": 5.513918399810791,
+                    "polygonName": "",
+                    "transitTime": "2h"
+                },
+                {
+                    "id": "Retira - SC SAO JOSE - Loja Campinas (1)",
+                    "deliveryChannel": "pickup-in-point",
+                    "name": "Retira - SC SAO JOSE - Loja Campinas (1)",
+                    "deliveryIds": [
+                        {
+                            "courierId": "1",
+                            "warehouseId": "1",
+                            "dockId": "1",
+                            "courierName": "01 - Retira - SC Loja Campinas V2",
+                            "quantity": 1,
+                            "kitItemDetails": []
+                        }
+                    ],
+                    "shippingEstimate": "1bd",
+                    "shippingEstimateDate": null,
+                    "lockTTL": null,
+                    "availableDeliveryWindows": [],
+                    "deliveryWindow": null,
+                    "price": 0,
+                    "listPrice": 0,
+                    "tax": 0,
+                    "pickupStoreInfo": {
+                        "isPickupStore": true,
+                        "friendlyName": "Retirar | SAO JOSE - Campinas",
+                        "address": {
+                            "addressType": "pickup",
+                            "receiverName": null,
+                            "addressId": "1",
+                            "isDisposable": true,
+                            "postalCode": "88102-401",
+                            "city": "São José",
+                            "state": "SC",
+                            "country": "BRA",
+                            "street": "Avenida Presidente Kennedy",
+                            "number": "1953",
+                            "neighborhood": "Campinas",
+                            "complement": "",
+                            "reference": null,
+                            "geoCoordinates": [
+                                -48.61676,
+                                -27.60226
+                            ]
+                        },
+                        "additionalInfo": "Aguarde o e-mail de \"Pedido Disponível para retirada\" para se dirigir à loja escolhida. Prazo para retirada inicia-se a partir da aprovação do pagamento.",
+                        "dockId": null
+                    },
+                    "pickupPointId": "cassolsantacatarina_1",
+                    "pickupDistance": 9.298297882080078,
+                    "polygonName": "",
+                    "transitTime": "2h"
+                },
+                {
+                    "id": "Entrega SC",
+                    "deliveryChannel": "delivery",
+                    "name": "Entrega SC",
+                    "deliveryIds": [
+                        {
+                            "courierId": "4008",
+                            "warehouseId": "1",
+                            "dockId": "1008",
+                            "courierName": "Entrega Normal SC - Transf V2",
+                            "quantity": 1,
+                            "kitItemDetails": []
+                        }
+                    ],
+                    "shippingEstimate": "4bd",
+                    "shippingEstimateDate": null,
+                    "lockTTL": null,
+                    "availableDeliveryWindows": [],
+                    "deliveryWindow": null,
+                    "price": 2965,
+                    "listPrice": 2965,
+                    "tax": 0,
+                    "pickupStoreInfo": {
+                        "isPickupStore": false,
+                        "friendlyName": null,
+                        "address": null,
+                        "additionalInfo": null,
+                        "dockId": null
+                    },
+                    "pickupPointId": null,
+                    "pickupDistance": null,
+                    "polygonName": "",
+                    "transitTime": "1bd"
+                }
+            ],
+            "deliveryChannels": [
+                {
+                    "id": "pickup-in-point"
+                },
+                {
+                    "id": "delivery"
+                }
+            ]
+        }
+    ],
+    "messages": [],
+    "purchaseConditions": {
+        "itemPurchaseConditions": [
+            {
+                "id": "2071060",
+                "seller": "1",
+                "sellerChain": [
+                    "1",
+                    "cassolsantacatarina"
+                ],
+                "slas": [
+                    {
+                        "id": "Retira - SC SAO JOSE - Loja Campinas (1)",
+                        "deliveryChannel": "pickup-in-point",
+                        "name": "Retira - SC SAO JOSE - Loja Campinas (1)",
+                        "deliveryIds": [
+                            {
+                                "courierId": "1",
+                                "warehouseId": "1",
+                                "dockId": "1",
+                                "courierName": "01 - Retira - SC Loja Campinas V2",
+                                "quantity": 1,
+                                "kitItemDetails": []
+                            }
+                        ],
+                        "shippingEstimate": "1bd",
+                        "shippingEstimateDate": null,
+                        "lockTTL": null,
+                        "availableDeliveryWindows": [],
+                        "deliveryWindow": null,
+                        "price": 0,
+                        "listPrice": 0,
+                        "tax": 0,
+                        "pickupStoreInfo": {
+                            "isPickupStore": true,
+                            "friendlyName": "Retirar | SAO JOSE - Campinas",
+                            "address": {
+                                "addressType": "pickup",
+                                "receiverName": null,
+                                "addressId": "1",
+                                "isDisposable": true,
+                                "postalCode": "88102-401",
+                                "city": "São José",
+                                "state": "SC",
+                                "country": "BRA",
+                                "street": "Avenida Presidente Kennedy",
+                                "number": "1953",
+                                "neighborhood": "Campinas",
+                                "complement": "",
+                                "reference": null,
+                                "geoCoordinates": [
+                                    -48.61676,
+                                    -27.60226
+                                ]
+                            },
+                            "additionalInfo": "Aguarde o e-mail de \"Pedido Disponível para retirada\" para se dirigir à loja escolhida. Prazo para retirada inicia-se a partir da aprovação do pagamento.",
+                            "dockId": null
+                        },
+                        "pickupPointId": "cassolsantacatarina_1",
+                        "pickupDistance": 9.298297882080078,
+                        "polygonName": "",
+                        "transitTime": "2h"
+                    },
+                    {
+                        "id": "Retira - SC PALHOCA - Loja Palhoça (30)",
+                        "deliveryChannel": "pickup-in-point",
+                        "name": "Retira - SC PALHOCA - Loja Palhoça (30)",
+                        "deliveryIds": [
+                            {
+                                "courierId": "30",
+                                "warehouseId": "30",
+                                "dockId": "30",
+                                "courierName": "30 - Retira - SC Loja Palhoça  V2",
+                                "quantity": 1,
+                                "kitItemDetails": []
+                            }
+                        ],
+                        "shippingEstimate": "1bd",
+                        "shippingEstimateDate": null,
+                        "lockTTL": null,
+                        "availableDeliveryWindows": [],
+                        "deliveryWindow": null,
+                        "price": 0,
+                        "listPrice": 0,
+                        "tax": 0,
+                        "pickupStoreInfo": {
+                            "isPickupStore": true,
+                            "friendlyName": "Retirar | PALHOÇA - Palhoça",
+                            "address": {
+                                "addressType": "pickup",
+                                "receiverName": null,
+                                "addressId": "30",
+                                "isDisposable": true,
+                                "postalCode": "88132-010",
+                                "city": "Palhoça",
+                                "state": "SC",
+                                "country": "BRA",
+                                "street": "Rodovia BR-101",
+                                "number": "km 212",
+                                "neighborhood": "Passa Vinte",
+                                "complement": "Marginal da BR-101, km 212 - Passa Vinte, Palhoça - SC, 88132-010",
+                                "reference": null,
+                                "geoCoordinates": [
+                                    -48.66482,
+                                    -27.63615
+                                ]
+                            },
+                            "additionalInfo": "Aguarde o e-mail de \"Pedido Disponível para retirada\" para se dirigir à loja escolhida. Prazo para retirada inicia-se a partir da aprovação do pagamento.",
+                            "dockId": null
+                        },
+                        "pickupPointId": "cassolsantacatarina_30",
+                        "pickupDistance": 5.513918399810791,
+                        "polygonName": "",
+                        "transitTime": "2h"
+                    },
+                    {
+                        "id": "Entrega SC",
+                        "deliveryChannel": "delivery",
+                        "name": "Entrega SC",
+                        "deliveryIds": [
+                            {
+                                "courierId": "4008",
+                                "warehouseId": "1",
+                                "dockId": "1008",
+                                "courierName": "Entrega Normal SC - Transf V2",
+                                "quantity": 1,
+                                "kitItemDetails": []
+                            }
+                        ],
+                        "shippingEstimate": "4bd",
+                        "shippingEstimateDate": null,
+                        "lockTTL": null,
+                        "availableDeliveryWindows": [],
+                        "deliveryWindow": null,
+                        "price": 2965,
+                        "listPrice": 2965,
+                        "tax": 0,
+                        "pickupStoreInfo": {
+                            "isPickupStore": false,
+                            "friendlyName": null,
+                            "address": null,
+                            "additionalInfo": null,
+                            "dockId": null
+                        },
+                        "pickupPointId": null,
+                        "pickupDistance": null,
+                        "polygonName": "",
+                        "transitTime": "1bd"
+                    }
+                ],
+                "price": 283900,
+                "listPrice": 283900
+            }
+        ]
+    },
+    "pickupPoints": [
+        {
+            "friendlyName": "Retirar | SAO JOSE - Campinas",
+            "address": {
+                "addressType": "pickup",
+                "receiverName": null,
+                "addressId": "1",
+                "isDisposable": true,
+                "postalCode": "88102-401",
+                "city": "São José",
+                "state": "SC",
+                "country": "BRA",
+                "street": "Avenida Presidente Kennedy",
+                "number": "1953",
+                "neighborhood": "Campinas",
+                "complement": "",
+                "reference": null,
+                "geoCoordinates": [
+                    -48.61676,
+                    -27.60226
+                ]
+            },
+            "additionalInfo": "Aguarde o e-mail de \"Pedido Disponível para retirada\" para se dirigir à loja escolhida. Prazo para retirada inicia-se a partir da aprovação do pagamento.",
+            "id": "cassolsantacatarina_1",
+            "businessHours": [
+                {
+                    "DayOfWeek": 0,
+                    "OpeningTime": "09:00:00",
+                    "ClosingTime": "19:00:00"
+                },
+                {
+                    "DayOfWeek": 1,
+                    "OpeningTime": "08:00:00",
+                    "ClosingTime": "21:00:00"
+                },
+                {
+                    "DayOfWeek": 2,
+                    "OpeningTime": "08:00:00",
+                    "ClosingTime": "21:00:00"
+                },
+                {
+                    "DayOfWeek": 3,
+                    "OpeningTime": "08:00:00",
+                    "ClosingTime": "21:00:00"
+                },
+                {
+                    "DayOfWeek": 4,
+                    "OpeningTime": "08:00:00",
+                    "ClosingTime": "21:00:00"
+                },
+                {
+                    "DayOfWeek": 5,
+                    "OpeningTime": "08:00:00",
+                    "ClosingTime": "21:00:00"
+                },
+                {
+                    "DayOfWeek": 6,
+                    "OpeningTime": "08:00:00",
+                    "ClosingTime": "20:00:00"
+                }
+            ]
+        },
+        {
+            "friendlyName": "Retirar | PALHOÇA - Palhoça",
+            "address": {
+                "addressType": "pickup",
+                "receiverName": null,
+                "addressId": "30",
+                "isDisposable": true,
+                "postalCode": "88132-010",
+                "city": "Palhoça",
+                "state": "SC",
+                "country": "BRA",
+                "street": "Rodovia BR-101",
+                "number": "km 212",
+                "neighborhood": "Passa Vinte",
+                "complement": "Marginal da BR-101, km 212 - Passa Vinte, Palhoça - SC, 88132-010",
+                "reference": null,
+                "geoCoordinates": [
+                    -48.66482,
+                    -27.63615
+                ]
+            },
+            "additionalInfo": "Aguarde o e-mail de \"Pedido Disponível para retirada\" para se dirigir à loja escolhida. Prazo para retirada inicia-se a partir da aprovação do pagamento.",
+            "id": "cassolsantacatarina_30",
+            "businessHours": [
+                {
+                    "DayOfWeek": 0,
+                    "OpeningTime": "09:00:00",
+                    "ClosingTime": "19:00:00"
+                },
+                {
+                    "DayOfWeek": 1,
+                    "OpeningTime": "08:00:00",
+                    "ClosingTime": "20:00:00"
+                },
+                {
+                    "DayOfWeek": 2,
+                    "OpeningTime": "08:00:00",
+                    "ClosingTime": "20:00:00"
+                },
+                {
+                    "DayOfWeek": 3,
+                    "OpeningTime": "08:00:00",
+                    "ClosingTime": "20:00:00"
+                },
+                {
+                    "DayOfWeek": 4,
+                    "OpeningTime": "08:00:00",
+                    "ClosingTime": "20:00:00"
+                },
+                {
+                    "DayOfWeek": 5,
+                    "OpeningTime": "08:00:00",
+                    "ClosingTime": "20:00:00"
+                },
+                {
+                    "DayOfWeek": 6,
+                    "OpeningTime": "08:00:00",
+                    "ClosingTime": "20:00:00"
+                }
+            ]
+        }
+    ],
+    "subscriptionData": null,
+    "totals": [
+        {
+            "id": "Items",
+            "name": "Total dos Itens",
+            "value": 283900
+        }
+    ],
+    "itemMetadata": null,
+    "allowMultipleDeliveries": true
+}
