@@ -2,15 +2,14 @@ import requests
 import pandas as pd
 import openpyxl
 
-# Mock de CEPs (simulando uma leitura da planilha)
-ceps = pd.DataFrame({
-    'cep': ['88134360']  # Exemplo de CEPs
-})
+# Carregar os CEPs e SKUs a partir da planilha de entrada
+input_file = "./input_ceps_skus.xlsx"  # Nome da planilha de entrada
 
-# Mock de SKUs (simulando uma leitura da planilha)
-skus = pd.DataFrame({
-    'sku': ['2071060', '1653182']  # Exemplo de SKUs
-})
+# Leitura dos CEPs na aba "CEPs"
+ceps_df = pd.read_excel(input_file, sheet_name="CEPs")
+
+# Leitura dos SKUs na aba "SKUs"
+skus_df = pd.read_excel(input_file, sheet_name="SKUs")
 
 # Criação da planilha de saída
 excel_book = openpyxl.Workbook()
@@ -54,7 +53,7 @@ def fetch_shipping_info(sku, cep):
     # Verifica se a requisição foi bem-sucedida
     if response.status_code == 200:
         data = response.json()
-        print(f"Resposta da API para CEP {cep} e SKU {sku}: {data}")  # Adiciona um log para inspecionar a resposta
+        print(f"Resposta da API para CEP {cep} e SKU {sku}: {data}")  # Log para inspecionar a resposta
 
         resultados = []
         
@@ -86,9 +85,9 @@ def fetch_shipping_info(sku, cep):
 
 
 # Laço para iterar sobre os CEPs e SKUs
-for i, row_cep in ceps.iterrows():
+for i, row_cep in ceps_df.iterrows():
     num_cep = row_cep['cep']
-    for j, row_sku in skus.iterrows():
+    for j, row_sku in skus_df.iterrows():
         sku = row_sku['sku']
         
         # Busca as informações de envio
@@ -106,6 +105,7 @@ for i, row_cep in ceps.iterrows():
             current_row += 1
 
 # Salva o resultado final na planilha
-excel_book.save("dados_transportadoras_vtex.xlsx")
+output_file = "dados_transportadoras_vtex.xlsx"
+excel_book.save(output_file)
 
-print("Processo concluído!")
+print(f"Processo concluído! Resultados salvos em {output_file}")
