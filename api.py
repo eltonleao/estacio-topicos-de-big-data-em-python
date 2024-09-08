@@ -1,3 +1,4 @@
+import json
 import requests
 import pandas as pd
 import openpyxl
@@ -59,14 +60,20 @@ def fetch_shipping_info(sku, cep):
     # Verifica se a requisição foi bem-sucedida
     if response.status_code == 200:
         data = response.json()
-        print(f"Resposta da API para CEP {cep} e SKU {sku}: {data}")  # Log da resposta
+
+        # Salva o JSON em um arquivo com o nome baseado no CEP e SKU
+        file_name = f"response_cep_{cep}_sku_{sku}.json"
+        with open(file_name, 'w') as json_file:
+            json.dump(data, json_file, indent=4)
+        
+        print(f"Resposta da API salva em: {file_name}")
 
         resultados = []
 
-        # Preço original e preço atual
+        # Preço original e preço atual com tratamento para valores None
         item = data['items'][0]
-        preco_original = item.get('listPrice', 0) / 100
-        preco_atual = item.get('sellingPrice', 0) / 100
+        preco_original = item.get('listPrice', 0) or 0  # Verificação de None
+        preco_atual = item.get('sellingPrice', 0) or 0  # Verificação de None
         disponibilidade = item.get('availability', 'Não informado')
         imposto = item.get('tax', 0) / 100
 
@@ -87,29 +94,32 @@ def fetch_shipping_info(sku, cep):
         if logistics_info and logistics_info[0].get('slas', []):
             for sla in logistics_info[0].get('slas', []):
                 delivery_channel = sla.get('deliveryChannel', '')
-                if delivery_channel == 'pickup-in-point':
+                
+                # Verifica se o SLA é para "delivery" (entrega)
+                if delivery_channel == 'delivery':
+                    transportadora = sla.get('name', 'Entrega')
+                    tempo = sla.get('shippingEstimate', 'Não informado')
+                    preco = sla.get('price', 0) / 100
+                    preco_formatado = f"R$ {preco:.2f}" if preco > 0 else 'Grátis'
+
+                    # Adiciona os resultados específicos de entrega
+                    resultados.append((transportadora, tempo, preco_formatado, preco_original, preco_atual, disponibilidade, imposto, opcoes_pagamento_str, cep_atendido))
+                elif delivery_channel == 'pickup-in-point':
+                    # Processa os SLAs de retirada em loja
                     transportadora = sla.get('name', 'Retirada em loja')
-                    preco = 0  # Define o preço como 0 para retirada
-                elif delivery_channel == 'delivery':
-                    transportadora = sla.get('name', 'Entrega')  # Captura o nome correto para entregas
-                    preco = sla.get('price', 0) / 100  # Convertendo centavos para reais
-                else:
-                    transportadora = 'Não informado'
-                    preco = 0
-
-                preco_formatado = 'Grátis' if preco == 0 else f"R$ {preco:.2f}"
-
-                # Adiciona cada resultado como uma tupla na lista
-                resultados.append((transportadora, sla.get('shippingEstimate', 'Não informado'), preco_formatado,
-                                   preco_original, preco_atual, disponibilidade, imposto, opcoes_pagamento_str, cep_atendido))
+                    tempo = sla.get('shippingEstimate', 'Não informado')
+                    preco_formatado = 'Grátis'  # Normalmente, retiradas são gratuitas
+                    
+                    resultados.append((transportadora, tempo, preco_formatado, preco_original, preco_atual, disponibilidade, imposto, opcoes_pagamento_str, cep_atendido))
         else:
             # Caso não haja transportadoras disponíveis
-            resultados.append(('Não informado', 'Não informado', 'Não informado',
-                               preco_original, preco_atual, disponibilidade, imposto, opcoes_pagamento_str, cep_atendido))
+            resultados.append(('Não informado', 'Não informado', 'Não informado', preco_original, preco_atual, disponibilidade, imposto, opcoes_pagamento_str, cep_atendido))
+
         
         return resultados
     
     return [('Não informado', 'Não informado', 'Não informado', 0, 0, 'Não informado', 0, 'Não informado', 'Não informado')]
+
 
 # Laço para iterar sobre os CEPs e SKUs
 for i, row_cep in ceps.iterrows():
