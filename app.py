@@ -2,6 +2,7 @@ import json
 import requests
 import pandas as pd
 import openpyxl
+import time  # Adicionando o módulo time
 
 # Carregar a planilha com os CEPs, SKUs e Sellers sem cabeçalhos
 input_file = "input_ceps_skus.xlsx"
@@ -131,6 +132,9 @@ for i, row_cep in ceps.iterrows():
         sku = row_sku['SKU']
         for k, row_seller in sellers.iterrows():
             seller_id = row_seller['SELLERs']
+
+            # Limitar a uma requisição por segundo
+            time.sleep(1)
 
             # Busca as informações de envio
             resultados = fetch_shipping_info(sku, num_cep, seller_id)
