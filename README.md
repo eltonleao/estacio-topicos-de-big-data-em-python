@@ -1,4 +1,4 @@
-# 🚀 VTEX Shipping Info Extractor
+# 🚀 UNIVERSIDADE ESTÁCIO DE SÁ - Projeto de Extensão para a Disciplina: Tópicos de Big Data em Python
 
 ## 🎯 Visão Geral
 
