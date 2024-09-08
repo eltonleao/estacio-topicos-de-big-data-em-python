@@ -2,7 +2,11 @@ import json
 import requests
 import pandas as pd
 import openpyxl
-import time  # Adicionando o módulo time
+import os  # Adicionando o módulo os
+import time  # Para limitar requisições por segundo
+
+# Criando a pasta ./responses se não existir
+os.makedirs('./responses', exist_ok=True)
 
 # Carregar a planilha com os CEPs, SKUs e Sellers sem cabeçalhos
 input_file = "input_ceps_skus.xlsx"
@@ -51,6 +55,7 @@ headers = {
 }
 
 def fetch_shipping_info(sku, cep, seller_id):
+    print(f"Buscando informações para SKU {sku}, CEP {cep}, Seller ID {seller_id}...")
     payload = {
         "items": [
             {
@@ -69,7 +74,7 @@ def fetch_shipping_info(sku, cep, seller_id):
     # Verifica se a requisição foi bem-sucedida
     if response.status_code == 200:
         data = response.json()
-        json_filename = f"response_cep_{cep}_sku_{sku}_seller_{seller_id}.json"
+        json_filename = f"./responses/response_cep_{cep}_sku_{sku}_seller_{seller_id}.json"
         with open(json_filename, 'w') as f:
             json.dump(data, f, indent=4)
         print(f"Resposta da API salva em: {json_filename}")
@@ -158,6 +163,9 @@ for i, row_cep in ceps.iterrows():
                 current_row += 1
 
 # Salva o resultado final na planilha
-excel_book.save("./dados_transportadoras_vtex_completos.xlsx")
+excel_book.save("dados_transportadoras_vtex_completos.xlsx")
+
+# open file
+os.system("start excel.exe dados_transportadoras_vtex_completos.xlsx")
 
 print("Processo concluído!")
