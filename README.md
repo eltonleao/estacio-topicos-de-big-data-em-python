@@ -48,7 +48,7 @@ pip install -r requirements.txt
 3. **Execute o script**:
 
    ```bash
-   python api.py
+   python app.py
    ```
 
 4. **Confira os resultados**:
