@@ -158,6 +158,6 @@ for i, row_cep in ceps.iterrows():
                 current_row += 1
 
 # Salva o resultado final na planilha
-excel_book.save("dados_transportadoras_vtex_completos.xlsx")
+excel_book.save("./dados_transportadoras_vtex_completos.xlsx")
 
 print("Processo concluído!")

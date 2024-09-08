@@ -1,2 +1,4 @@
 *.~lock.*
-*response*
+./responses
+./responses/*
+./dados_transportadoras_vtex_completos.csv
