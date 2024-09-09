@@ -1,4 +1,4 @@
-# 🚀 UNIVERSIDADE ESTÁCIO DE SÁ - Projeto de Extensão para a Disciplina: Tópicos de Big Data em Python
+# 🚀 Shipping Data Export
 
 ## 🎯 Visão Geral
 
