@@ -4,11 +4,6 @@
 
 Este projeto permite extrair informações de frete para uma lista de SKUs, CEPs e Sellers através da API da **VTEX**, e exporta os resultados para uma planilha do Excel de maneira organizada. A aplicação é ideal para lojas online e integradores que precisam de uma forma automatizada de consultar diferentes transportadoras, prazos de entrega, preços e disponibilidades.
 
-## 🎥 Vídeos Explicativos
-
-- [Parte 1](https://drive.google.com/file/d/1C31upogGqTg-zx6m2wr5759l1RqeRZKt/view?usp=drive_link)
-- [Parte 2](https://drive.google.com/file/d/1OMCFXrs2gzst4fdkrXLkzrUsORIEH86O/view?usp=drive_link)
-
 ## 🛠️ Funcionalidades
 
 - 📦 **Consulta Automática**: Faz consultas de informações de frete com base em uma lista de SKUs, CEPs e Sellers.
