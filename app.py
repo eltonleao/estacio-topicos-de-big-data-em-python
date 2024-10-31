@@ -10,9 +10,9 @@ os.makedirs('./responses', exist_ok=True)
 
 # Carregar a planilha com os CEPs, SKUs e Sellers sem cabeçalhos
 input_file = "input_ceps_skus.xlsx"
-ceps = pd.read_excel(input_file, sheet_name="CEPs", header=None)  # Sem cabeçalho
-skus = pd.read_excel(input_file, sheet_name="SKUs", header=None)  # Sem cabeçalho
-sellers = pd.read_excel(input_file, sheet_name="SELLERs", header=None)  # Sem cabeçalho
+ceps = pd.read_excel(input_file, sheet_name="CEPs", header=None, dtype=str)  # Carregar CEPs como strings
+skus = pd.read_excel(input_file, sheet_name="SKUs", header=None, dtype=str)  # Sem cabeçalho
+sellers = pd.read_excel(input_file, sheet_name="SELLERs", header=None, dtype=str)  # Sem cabeçalho
 
 # Verifique se as colunas têm dados corretos
 if ceps.empty or skus.empty or sellers.empty:
